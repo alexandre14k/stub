@@ -24,14 +24,14 @@ run.bat
 ```
 
 ## Commands
-- [i]nit: Install xmake if missing.
-- [s]pecs: Install xmake packages from spec.md.
-- [b]uild: Compile the application.
-- [c]lean: Remove build artifacts.
-- [r]un: Execute in release mode.
-- [d]ebug: Execute in debug mode with gdb.
-- [k]lear: Clear terminal.
-- [x]it: Terminate script.
+- [i]nit         -- install xmake if missing
+- [s]pecs        -- install xmake packages from spec.md
+- [b]uild        -- compile the application
+- [c]lean        -- remove build artifacts
+- [r]un          -- execute in release mode
+- [d]ebug        -- execute in debug mode with gdb
+- [k]lear        -- clear terminal
+- [x]it          -- terminate script
 
 ## Test
 <br>
@@ -39,7 +39,6 @@ run.bat
 <div style="text-align: center;">
   <img src="doc/test.png" />
 </div>
-
 
 <br>
 - in debug mode
@@ -49,15 +48,17 @@ run.bat
 
 ## File tree
 ```bash
+doc/            -- images inside
+out/            -- generated build folder for debug | release modes
 lib/            -- place static libraries inside
 src/            -- all cpp sources are inside
-src/root.hpp    -- Global includes and type aliases.
+src/root.hpp    -- global includes and type aliases.
 src/link.hpp
-src/link.cpp    -- Static library anchor.
+src/link.cpp    -- static library anchor.
 src/gui.hpp
-src/gui.cpp     -- GTK4 window and event loop.
-src/main.cpp    -- Application entry point.
-run.py          -- Cross-platform build and run automation.
+src/gui.cpp     -- gtk4 window and event loop.
+src/main.cpp    -- application entry point.
+run.py          -- cross-platform build and run automation.
 run.sh          -- run script for linux xfce4 bash
 run.bat         -- run script for windows batch
 spec.md         -- xmake dependencies
