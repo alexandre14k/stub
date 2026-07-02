@@ -35,8 +35,16 @@ run.bat
 
 ## Test
 <br>
+- in release mode
 <div style="text-align: center;">
   <img src="doc/test.png" />
+</div>
+
+
+<br>
+- in debug mode
+<div style="text-align: center;">
+  <img src="doc/debug.png" />
 </div>
 
 ## File tree
