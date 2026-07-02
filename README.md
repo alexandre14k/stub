@@ -24,6 +24,7 @@ run.bat
 ```
 
 ## Commands
+```bash
 - [i]nit         -- install xmake if missing
 - [s]pecs        -- install xmake packages from spec.md
 - [b]uild        -- compile the application
@@ -32,6 +33,7 @@ run.bat
 - [d]ebug        -- execute in debug mode with gdb
 - [k]lear        -- clear terminal
 - [x]it          -- terminate script
+```
 
 ## Test
 <br>
