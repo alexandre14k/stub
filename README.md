@@ -33,6 +33,12 @@ run.bat
 - [k]lear: Clear terminal.
 - [x]it: Terminate script.
 
+## Test
+<br>
+<div style="text-align: center;">
+  <img src="doc/test.png" />
+</div>
+
 ## File tree
 ```bash
 lib/            -- place static libraries inside
